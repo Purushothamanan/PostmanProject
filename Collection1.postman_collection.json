@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "07c13490-8434-4c2e-97e1-c11575883acf",
+		"name": "Collection1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "GET USER",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET USER LIST",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "dcb085c1-47b6-4230-8678-68551a2deea5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "6e450449-0cb7-41b3-bbcb-890d09332224",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "7b47edd4-92a8-4b89-a907-5b5eb510b64e",
+			"key": "url",
+			"value": "https://reqres.in",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
